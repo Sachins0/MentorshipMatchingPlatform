@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api/v1', // Backend URL
+  baseURL: 'https://mentorshipmatchingplatformbackend.onrender.com/api/v1', // Backend URL
 });
 
 export const registerUser = (userData) => {
