@@ -4,7 +4,7 @@
   "description": "this is template for NodeJS project using Sequelize and mySQL",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "author": "Sachin Singh",
   "license": "ISC",
