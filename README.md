@@ -98,8 +98,9 @@ DB_PASSWORD=pass
 DB_NAME=db_name
 ```
 
-4. Run migrations and seed data:
+4. create database Run migrations and seed data:
 ```
+npx sequelize db:create
 npx sequelize-cli db:migrate
 npx sequelize-cli db:seed:all
 ```
