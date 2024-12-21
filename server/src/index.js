@@ -17,6 +17,15 @@ app.use(
 	})
 );
 
+// Sleep utility
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+// Global middleware for delay
+app.use(async (req, res, next) => {
+    await sleep(3000); // 3-second delay for all routes
+    next();
+});
+
 
 app.use('/api',apiRoutes);
 
