@@ -5,7 +5,7 @@ Deployed URLs
 
 - Frontend: https://mentorshipmatchingplatformfrontend.onrender.com
 
-- Backend: [https://mentorshipmatchingplatform-production.up.railway.app/](https://mentorshipmatchingplatform-production.up.railway.app//api/v1/info)
+- Backend: [https://mentorshipmatchingplatform-production.up.railway.app/](https://mentorshipmatchingplatform-production.up.railway.app/api/v1/info)
 
 ## Features
 
