@@ -5,7 +5,7 @@ Deployed URLs
 
 - Frontend: https://mentorshipmatchingplatformfrontend.onrender.com
 
-- Backend: https://mentorshipmatchingplatformbackend.onrender.com
+- Backend: [https://mentorshipmatchingplatform-production.up.railway.app/](https://mentorshipmatchingplatform-production.up.railway.app/api/v1/info)
 
 ## Features
 
@@ -92,11 +92,15 @@ PORT=3000
 SALT_ROUNDS=8
 JWT_SECRET= <Your_secret>
 JWT_EXPIRY= '1h'
+DB_HOST=host
+DB_USER="root"
+DB_PASSWORD=pass
+DB_NAME=db_name
 ```
 
-4. Run sequelize, migrations and seed data:
+4. create database Run migrations and seed data:
 ```
-npx sequelize init --force
+npx sequelize db:create
 npx sequelize-cli db:migrate
 npx sequelize-cli db:seed:all
 ```
